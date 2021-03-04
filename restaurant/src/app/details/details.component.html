@@ -1,0 +1,30 @@
+
+<!-- 
+<div class="box">
+    <h1>{{newOrder.name}} </h1> -->
+   
+   
+
+
+    <table style="width:100%">
+        <tr>
+          <th>Name</th>
+          <th colspan="1">Food Item</th>
+          <th colspan="1">Customer Name</th>
+          <th colspan="1">Phone Number</th>
+          <th colspan="1">Address</th>
+          <th colspan="1">Delete Order</th>
+        </tr>
+        <tr>
+          <td>{{newOrder.name}}</td>
+          <td>{{newOrder.category}}</td>
+          
+          <td>{{newOrder.year}}</td>
+          <td>{{newOrder.moviecollection}}</td>
+          <td>{{newOrder.ratings}}</td>
+          <td> <button (click)="Delete(newOrder._id)" class="btn btn-info">Delete Order</button></td>
+        </tr>
+      </table>
+      
+      
+      

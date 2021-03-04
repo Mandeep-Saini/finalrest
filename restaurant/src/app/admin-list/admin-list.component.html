@@ -1,0 +1,21 @@
+<!-- <p>admin-list works!</p>
+<ul>
+    <li *ngFor="let a of orders">
+      {{ a.name }}
+      -->
+     
+<!--       
+    </li>
+</ul> -->
+
+<table style="width:100%">
+  <tr>
+    <th>Customer Name</th>
+    <th colspan="2">Resturant Name</th>
+  </tr>
+  <tr *ngFor="let a of orders">
+    <td> {{ a.year }}</td>
+    <td> {{ a.name }}</td>
+  <td> <button routerLink="/details/{{a._id}}" class="btn btn-info">Details</button></td>
+  </tr>
+</table>
