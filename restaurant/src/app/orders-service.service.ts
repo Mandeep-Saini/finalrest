@@ -8,7 +8,7 @@ export class OrdersServiceService {
  
  
   
-    private ordersUrl='http://localhost:3000/api/orders';
+    private ordersUrl='https://foodiesrestaurant.herokuapp.com/api/orders';
     private restaurantUrl = 'https://developers.zomato.com/api/v2.1/search?entity_id=3428&entity_type=city';
     httpOptions = {
       headers: new Headers({ 'user-key': '7f0d2284c241df2d70c62a2f724e0276' })
